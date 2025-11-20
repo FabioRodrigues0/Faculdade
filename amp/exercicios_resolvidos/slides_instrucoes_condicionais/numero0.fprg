@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jmapsimoes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-14 03:54:11 p.m."/>
+        <attribute name="created" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjQtMTAtMTQ7MDM6MDk6MDUgcC5tLjszMzc5"/>
+        <attribute name="edited" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjQtMTAtMTQ7MDM6NTQ6MTEgcC5tLjsxOzM0ODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira um n&#250;mero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero == 0">
+                <then>
+                    <output expression="&quot;O n&#250;mero inserido foi 0&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

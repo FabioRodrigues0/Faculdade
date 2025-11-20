@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jmapsimoes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 04:46:25 p.m."/>
+        <attribute name="created" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjQtMTAtMDg7MDQ6NDA6MzcgcC5tLjszMzgz"/>
+        <attribute name="edited" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjQtMTAtMDg7MDQ6NDY6MjUgcC5tLjsxOzM0OTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, altura, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Inserir a base e a altura do tri&#226;ngulo&quot;" newline="True"/>
+            <input variable="base"/>
+            <input variable="altura"/>
+            <assign variable="area" expression="base * altura / 2"/>
+            <output expression="&quot;&#193;rea = &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

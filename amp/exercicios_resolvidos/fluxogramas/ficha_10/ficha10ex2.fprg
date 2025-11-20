@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jmapsimoes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-08 07:22:50 p.m."/>
+        <attribute name="created" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjUtMTAtMDg7MDY6MDk6MzYgcC5tLjszMzkw"/>
+        <attribute name="edited" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjUtMTAtMDg7MDc6MjI6NTAgcC5tLjsyOzM0OTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="PRECO, precoFinal" type="Real" array="False" size=""/>
+            <assign variable="PRECO" expression="35"/>
+            <declare name="quantidade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira a quantidade&quot;" newline="True"/>
+            <input variable="quantidade"/>
+            <comment text="calcula o pre&#231;o final sem desconto"/>
+            <assign variable="precoFinal" expression="quantidade * PRECO"/>
+            <if expression="quantidade &gt; 100 and quantidade &lt;= 1000">
+                <then>
+                    <comment text="aplica um desconto de 5%"/>
+                    <assign variable="precoFinal" expression="precoFinal * 0.95"/>
+                </then>
+                <else>
+                    <if expression="quantidade &gt; 1000">
+                        <then>
+                            <comment text="aplica um desconto de 8%"/>
+                            <assign variable="precoFinal" expression="precoFinal * 0.92"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;O valor a pagar &#233; &quot; &amp; precoFinal &amp; &quot; &#8364;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
