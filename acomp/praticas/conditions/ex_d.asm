@@ -2,13 +2,9 @@
     msg1: .asciiz "Indique A: "
     msg2: .asciiz "Indique B: "
 
-    resposta: .asciiz "Resposta: A = "
-    #res_a: .asciiz "'a' + 1 = "
-    #res_b: .asciiz "'b' + 1 = "
-    #res_c: .asciiz "'a' + 1 = "
-    #res_d: .asciiz "'a' e 'b' são iguais"
+    resposta: .asciiz "Resposta: A = B "
 
-    erro: .asciiz "Erro: o 'a' tem que ser maior do que o 'b'\n"
+    erro: .asciiz "Erro: o 'a' e o 'b' tem que ser iguais\n"
 
 .text
     while:
@@ -32,22 +28,13 @@
         # B
         move $s2, $v0
 
-        bgt $s1, $s2, linha_a
-        #bge $s1, $s2, linha_b
-        #bge $s2, $s1, linha_c
-        #beq $s1, $s2, linha_d
+        beq $s1, $s2, condicao
 
         j error
 
-    linha_a:
+    condicao:
         li $v0, 4
         la $a0, resposta
-        syscall
-
-        add $s1, $s1, 1
-
-        li $v0, 1
-        move $a0, $s1
         syscall
 
         j fechar
