@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "31acb72c601223e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b7abd80a56f1d2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5aa62d52c48cb42a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "acomp/📝_apontamentos/Aula7_Assembly_Laços_Repetição.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aula7_Assembly_Laços_Repetição"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3cb01c43a97ef917",
+    "type": "split",
+    "children": [
+      {
+        "id": "215dfd07b1c5049e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3532707b416ee1b5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "196bd28687c60a92",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7e9ef265efa9a415",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aa8b1fa0517344ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "56164e0008b41743",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e105fa53c37069de",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "acomp/📝_apontamentos/aula3_Assembly_MIPS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for aula3_Assembly_MIPS"
+            }
+          },
+          {
+            "id": "2b36620e541cc316",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "acomp/📝_apontamentos/aula3_Assembly_MIPS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from aula3_Assembly_MIPS"
+            }
+          },
+          {
+            "id": "b3a4c203bb6f8c96",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "db716cf56363e3e2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c20236e5c8f5c2c9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "acomp/📝_apontamentos/aula3_Assembly_MIPS.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of aula3_Assembly_MIPS"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "5aa62d52c48cb42a",
+  "lastOpenFiles": [
+    "acomp/📝_apontamentos/Aula4_Assembly_Condicionais.md",
+    "acomp/📝_apontamentos/aula3_Assembly_MIPS.md",
+    "acomp/📝_apontamentos/aula2_Sistemas_de_Numeração.md",
+    "acomp/📝_apontamentos/aula4_Assembly_Ponto_Flutuante.md"
+  ]
+}
