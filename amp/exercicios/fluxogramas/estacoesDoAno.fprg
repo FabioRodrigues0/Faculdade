@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jmapsimoes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-14 05:28:32 p.m."/>
+        <attribute name="created" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjQtMTAtMTQ7MDQ6MjE6MDkgcC5tLjszMzc4"/>
+        <attribute name="edited" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjQtMTAtMTQ7MDU6Mjg6MzIgcC5tLjs0OzM0OTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="estacao" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira o numero da estacao&quot;" newline="True"/>
+            <input variable="estacao"/>
+            <if expression="estacao == 1">
+                <then>
+                    <output expression="&quot;Primavera&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="estacao == 2">
+                        <then>
+                            <output expression="&quot;Ver&#227;o&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="estacao == 3">
+                                <then>
+                                    <output expression="&quot;Outono&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="estacao == 4">
+                                        <then>
+                                            <output expression="&quot;Inverno&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;esta&#231;&#227;o inv&#225;lida&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

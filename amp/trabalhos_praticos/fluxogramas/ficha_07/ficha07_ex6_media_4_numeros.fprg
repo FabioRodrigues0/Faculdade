@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jmapsimoes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-30 12:10:44 p.m."/>
+        <attribute name="created" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjUtMDktMzA7MTE6MzQ6MzYgYS5tLjszMzcy"/>
+        <attribute name="edited" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjUtMDktMzA7MTI6MTA6NDQgcC5tLjsxOzM0ODk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4" type="Integer" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <output expression="&quot;insira o primeiro n&#250;mero&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;insira o segundo n&#250;mero&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;insira o terceiro n&#250;mero&quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;insira o quarto n&#250;mero&quot;" newline="True"/>
+            <input variable="n4"/>
+            <assign variable="media" expression="(n1 + n2 + n3 + n4) / 4"/>
+            <output expression="&quot;A m&#233;dia &#233; &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

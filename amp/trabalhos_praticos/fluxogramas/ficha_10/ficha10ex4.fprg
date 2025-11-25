@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jmapsimoes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-16 07:18:13 p.m."/>
+        <attribute name="created" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjQtMTAtMTU7MDQ6MDY6NTMgcC5tLjszMzgx"/>
+        <attribute name="edited" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjQtMTAtMTY7MDc6MTg6MTMgcC5tLjszOzM0OTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="icondutor, iviatura, nacidentes" type="Integer" array="False" size=""/>
+            <declare name="premio" type="Real" array="False" size=""/>
+            <comment text="A vari&#225;vel premio &#233; inicializada com o pr&#233;mio base"/>
+            <assign variable="premio" expression="50"/>
+            <output expression="&quot;Insira a idade do condutor&quot;" newline="True"/>
+            <input variable="icondutor"/>
+            <output expression="&quot;Insira a idade da viatura&quot;" newline="True"/>
+            <input variable="iviatura"/>
+            <output expression="&quot;Insira o n&#250;mero de acidentes&quot;" newline="True"/>
+            <input variable="nacidentes"/>
+            <comment text="Sele&#231;&#227;o composta"/>
+            <if expression="iviatura&lt;=5">
+                <then>
+                    <assign variable="premio" expression="premio + 25"/>
+                </then>
+                <else>
+                    <comment text="Sele&#231;&#227;o composta"/>
+                    <if expression="iviatura&lt;=10">
+                        <then>
+                            <assign variable="premio" expression="premio + 40"/>
+                        </then>
+                        <else>
+                            <assign variable="premio" expression="premio + 50 + 2.5 * (iviatura - 11)"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <comment text="Sele&#231;&#227;o simples"/>
+            <if expression="icondutor&lt;25 or icondutor&gt;60">
+                <then>
+                    <assign variable="premio" expression="premio + 25"/>
+                </then>
+                <else/>
+            </if>
+            <assign variable="premio" expression="premio + 10 * nacidentes"/>
+            <output expression="&quot;O pr&#233;mio total &#233; de &quot; &amp; premio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
