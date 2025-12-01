@@ -45,12 +45,3 @@ def ex_2_09():
     ia = taxa * cc - parcelas
 
     print(f"IA={round(ia, 2)}")
-
-
-def main():
-    # ex_2_05()
-    ex_2_09()
-
-
-if __name__ == "__main__":
-    main()
