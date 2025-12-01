@@ -1,5 +1,7 @@
 # Arquitetura de Computadores - MIPS
 
+Este documento assume a compreensão dos conceitos base de [[aula1_arquitetura_de_computadores|Arquitetura de Computadores]].
+
 ## Arquitetura de von Neumann
 
 A arquitetura de von Neumann é um modelo de arquitetura de computador que se baseia em três componentes principais:

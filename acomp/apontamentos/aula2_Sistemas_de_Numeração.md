@@ -1,4 +1,6 @@
-# Arquitetura de Computadores
+# Sistemas de Numeração e Conversão
+
+Este documento detalha os sistemas de numeração, um conceito fundamental da [[aula1_arquitetura_de_computadores|Arquitetura de Computadores]].
 ## Sistemas de Numeração e Conversão
 
 ### Sistemas de Numeração
