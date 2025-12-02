@@ -1,3 +1,7 @@
+# Lista de exercícios deste dia
+exercicios = {}
+
+
 def ex_2_05():
     """
     Tento uma temperatura expressa em graus,
@@ -45,3 +49,8 @@ def ex_2_09():
     ia = taxa * cc - parcelas
 
     print(f"IA={round(ia, 2)}")
+
+
+# Registar exercícios na lista
+exercicios["ex_2_05"] = ex_2_05
+exercicios["ex_2_09"] = ex_2_09

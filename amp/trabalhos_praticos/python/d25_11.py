@@ -1,5 +1,8 @@
 import random
 
+# Lista de exercícios deste dia
+exercicios = {}
+
 
 def ex03():
     """
@@ -117,3 +120,9 @@ def ex05():
 
     if lives == 0:
         print("Perdeste! Gastaste todas as vidas.")
+
+
+# Registar exercícios na lista
+exercicios["ex03"] = ex03
+exercicios["ex04"] = ex04
+exercicios["ex05"] = ex05
