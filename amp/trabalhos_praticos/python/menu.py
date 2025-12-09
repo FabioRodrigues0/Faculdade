@@ -1,7 +1,7 @@
 from d02_12 import exercicios as exercicios_d02_12
 from d18_11 import exercicios as exercicios_d18_11
 from d25_11 import exercicios as exercicios_d25_11
-
+from d09_12 import exercicios as exercicios_d09_12
 
 def main() -> None:
     # Organizar exercícios por dia
@@ -9,6 +9,7 @@ def main() -> None:
         "18/11": exercicios_d18_11,
         "25/11": exercicios_d25_11,
         "02/12": exercicios_d02_12,
+        "09/12": exercicios_d09_12
     }
 
     while True:
