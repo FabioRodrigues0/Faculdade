@@ -50,6 +50,7 @@ Screen {
 }
 
 /* --- Game Screen --- */
+
 #stats {
     dock: top;
     width: 100%;
@@ -61,14 +62,14 @@ Screen {
 }
 
 #question-container {
-    width: 80%;
+    width: 100%;
     height: auto;
     min-height: 5;
     align: center middle;
     text-align: center;
     border: round white;
-    padding: 1 2;
-    margin: 2 0;
+    padding: 1 4;
+    margin: 2 4;
 }
 
 #question-text {
@@ -79,9 +80,10 @@ Screen {
 #answers-grid {
     grid-size: 2 2;
     grid-gutter: 1;
-    width: 80%;
-    max-width: 80;
-    margin: 1 0;
+    align: center middle;
+    width: 100%;
+    margin: 1 4;
+    padding: 1 4;
 }
 
 #answers-grid > Button {
@@ -95,6 +97,10 @@ Screen {
 }
 
 /* --- Leaderboard Screen --- */
+#leaderboard-screen {
+    align: center middle;
+}
+
 #leaderboard-title {
     width: 100%;
     text-align: center;
@@ -104,9 +110,11 @@ Screen {
 
 #scores-container {
     align: center top;
+    margin: 1 4;
     padding: 2 4;
-    width: 60;
+    width: 72%;
     height: auto;
     border: round white;
+    offset-x: 20%;
     background: $panel;
 }

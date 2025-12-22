@@ -71,6 +71,7 @@ class LeaderboardScreen(Screen):
     """The leaderboard screen to display high scores."""
 
     def compose(self) -> ComposeResult:
+        self.id = "leaderboard-screen"
         yield Header()
         yield Label("🏆 Leaderboard 🏆", id="leaderboard-title")
 
@@ -123,7 +124,7 @@ class GameScreen(Screen):
         try:
             with open(QUESTIONS_FILE, "r", encoding="utf-8") as file:
                 reader = list(csv.reader(file))
-                for q in reader[1:]:  # Skip header
+                for q in reader[1:]:  # 1 para dar skip ao he
                     if len(q) == 5 and int(q[4]) == self.level:
                         all_level_questions.append(q)
         except (IOError, ValueError, IndexError):
