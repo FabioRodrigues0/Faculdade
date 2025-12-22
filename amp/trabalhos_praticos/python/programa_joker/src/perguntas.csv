@@ -1,7 +1,7 @@
 numero,perguntas,correta,respostas,dificuldade
 1,"Qual e a capital de Portugal?",0,"Lisboa;Porto;Covilha;Coimbra",1
 2,"Em que ano terminou a Segunda Guerra Mundial?",2,"1943;1944;1945;1946",2
-3,"Qual e o planeta mais proximo do Sol?",1,"Venus;Mercurio;Marte;Terra",2
+3,"Qual e o planeta mais proximo do Sol?",1,"Venus;Mercurio;Marte;Terra",1
 4,"Quem escreveu 'Dom Casmurro'?",1,"Jose Saramago;Machado de Assis;Fernando Pessoa;Camoes",3
 5,"Qual e o rio mais longo do mundo?",1,"Amazonas;Nilo;Yangtze;Mississippi",2
 6,"Quantos continentes existem?",2,"5;6;7;8",1
@@ -13,3 +13,31 @@ numero,perguntas,correta,respostas,dificuldade
 12,"Em que ano foi descoberto o Ouro no Brasil?",0,"1693;1700;1750;1800",3
 13,"Qual é o nome do jogo?",0,"1;2;3;4",1
 14,"Qual é a idade mínima para jogar?",0,"1;2;3;4",2
+15,"Segundo as leis da física, qual o nome da força de atracção entre objectos com massa?",3,"Amor;Força nuclear forte;Força nuclear fraca;Gravidade",1
+16,"Quantos fusos horários tem a Rússia?",1,"10;11;12;13",2
+17,"Qual é a flor nacional do Japão?",0,"flor de cerejeira;flor de lotus;flor de lis;flor de maio",1
+18,"Quantas riscas tem a bandeira dos EUA?",3,"10;11;12;13",1
+19,"Qual é o animal nacional da Austrália?",2,"Koala;Canguru;Canguru-vermelho;Diabo da Tasmânia",2
+20,"Qual dos seguintes impérios não tinha uma língua escrita?",1,"Azteca;Inca;Romano;Egípcio",2
+21,"Até 1923, como se chamava a cidade turca de Istambul?",0,"Constantinopla;Esmirna;Ancara;Capadócia",1
+22,"Que país tem mais ilhas no mundo?",3,"Rússia;Noruega;Islândia;Suécia",3
+23,"Qual é o país mais pequeno do mundo?",2,"Luxemburgo;San Marino;Vaticano;Tuvalu",1
+24,"Qual é a capital do Canadá?",2,"Camberra;Quebec;Ottawa;Ontário",1
+25,"Qual é a maior (não a mais alta) cordilheira de montanhas no mundo?",0,"Andes;Apalaches;Montanhas Rochosas;Himalaias",2
+26,"Qual é o termo na gíria utilizada pelos locais quando se referem a Nova Iorque?",3,"The City;Big Apple;Gotham;Todas as anteriores",2
+27,"Qual foi o livro mais vendido no século XXI?",3,"Twilight;Dom Quixote;As Aventuras de Sherlock Holmes;Harry Potter",2
+28,"Que língua tem mais palavras (de acordo com entradas de dicionário)?",1,"Mandarim;Inglês;Espanhol;Português",2
+29,"Quando é que abriu o metropolitano de Londres?",0,"1863;1864;1865;1869",3
+30,"Quem é que inventou a World Wide Web?",2,"Bob Taylor;Robert Cailliau;Tim Berners-Lee;Ray Tomlinson",1
+31,"Quando foi publicada a primeira edição da Vogue?",0,"1892;1960;1980;2000",3
+32,"Onde nasceu Billie Eilish?",0,"San Francisco;Chicago;Nevada;Los Angeles",2
+33,"De que cidade são os Beatles?",2,"Bristol;Glasgow;Liverpool;Sheffield",1
+34,"Quantas teclas tem um piano clássico?",2,"80;85;88;90",1
+35,"Onde é que foram realizados os primeiros Jogos Olímpicos modernos?",1,"Tóquio;Atenas;Madrid;Roma",1
+36,"Que equipa de futebol é conhecida como ‘The Red Devils’?",1,"Chelsea;Manchester United;Liverpool;Arsenal",1
+37,"Qual era o nome original da marca de roupa Nike?",2,"Air Force 1;Swoosh;Blue Ribbon Sports;Gold Sports Footwear",2
+38,"Quando foi fundada a Netflix?",0,"1997;2001;2009;2015",1
+39,"Qual a série mais vista da Netflix em 2019?",1,"Squid Game;Stranger Things;Breaking Bad;Downton Abbey",2
+40,"Qual a primeira longa-metragem da Pixar?",3,"The Incredibles;Finding Nemo;A Bug's Life;Toy Story",1
+41,"Qual o nome do café na sitcom Friends?",1,"Central Pike;Central Perk;Central Life;Central Lane",1
+42,"Qual o primeiro filme da Disney?",0,"Snow White;Fantasia;Dumbo;Bambi",1
