@@ -52,8 +52,9 @@ Ao corrigir respostas do utilizador:
 
 ## Notas Gerais
 
-- Lingua: Portugues (Portugal)
+- Lingua: Portugues (Portugal), com UTF-8, para se ter os acentos e "ç" caso contrario não ira ser apresentado
 - O utilizador usa Obsidian como gestor de notas
+- Em `material_de_aula/` mete para ser possível se ajustar e ter conteúdo lado a lado como se fosse um livro, como foi ativado os css snippets em @.obsidian/snippets/code-wrap.css e possível
 - Ficheiros de material de aula ficam em `material_de_aula/`
 - Ficheiros de testes e simulacoes ficam em `testes/`
 - Ao criar conteudo novo, verificar se ja existe algo semelhante para nao duplicar
