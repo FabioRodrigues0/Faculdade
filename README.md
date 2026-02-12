@@ -10,4 +10,4 @@ Abaixo está a lista de disciplinas e seus respectivos diretórios:
 - **`AMP/`**: Algoritmos e Modelação de Programas
 - **`ISD/`**: Introdução aos Sistemas Digitais
 - **`AM/`**: Análise Matemática
-- **`ALG/`**: Álgebra
+- **`ALG/`**: Álgebra Linear
