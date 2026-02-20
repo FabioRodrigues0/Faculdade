@@ -54,7 +54,7 @@ Ao corrigir respostas do utilizador:
 
 - Lingua: Portugues (Portugal), com UTF-8, para se ter os acentos e "ç" caso contrario não ira ser apresentado
 - O utilizador usa Obsidian como gestor de notas
-- Em `material_de_aula/` mete para ser possível se ajustar e ter conteúdo lado a lado como se fosse um livro, como foi ativado os css snippets em @.obsidian/snippets/code-wrap.css e possível
+- Em `material_de_aula/` o conteúdo deve permitir visualização lado a lado (modo livro do Obsidian). O snippet `.obsidian/snippets/code-wrap.css` garante que blocos de código fazem wrap e não saem da página
 - Ficheiros de material de aula ficam em `material_de_aula/`
 - Ficheiros de testes e simulacoes ficam em `testes/`
 - Ao criar conteudo novo, verificar se ja existe algo semelhante para nao duplicar

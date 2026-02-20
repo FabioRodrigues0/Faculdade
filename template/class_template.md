@@ -1,9 +1,7 @@
 ---
-topic: 
+topic:
 date: "{{date}}"
-course: 
 tags:
-  - studies
 ---
 
 # {{title}}
@@ -13,12 +11,6 @@ tags:
 
 ## Important Details
 
-
-## Examples
-
-
-## Questions
-- 
 
 ## Summary
 

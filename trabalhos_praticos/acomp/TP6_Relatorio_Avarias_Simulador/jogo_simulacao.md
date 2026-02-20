@@ -1,0 +1,1 @@
+Jogo de simulação de reparação de computadores, onde nos apresentam um problema e temos que indicar qual peça de hardware precisa de ser trocada ou em alguns casos limpar ou ajustar a conexão.

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jmapsimoes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-30 11:34:35 a.m."/>
+        <attribute name="created" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjUtMDktMzA7MTA6NTY6NDEgYS5tLjszMzcx"/>
+        <attribute name="edited" value="am1hcHNpbW9lcztNQUNCT09LLUFJUi0yOzIwMjUtMDktMzA7MTE6MzQ6MzUgYS5tLjszOzM0ODE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="precoFabrica, precoFinal" type="Real" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Insira o nome do autom&#243;vel&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Insira o pre&#231;o de f&#225;brica&quot;" newline="True"/>
+            <input variable="precoFabrica"/>
+            <comment text="Nesta vers&#227;o do exerc&#237;cio, o c&#225;lculo s&#243; &#233; efetuado se o pre&#231;o de f&#225;brica for maior do que 0"/>
+            <if expression="precoFabrica &gt; 0">
+                <then>
+                    <assign variable="precoFinal" expression="precoFabrica + 0.45*precoFabrica + 0.28*precoFabrica"/>
+                    <output expression="&quot;O pre&#231;o final do autom&#243;vel &quot; &amp; nome &amp; &quot; &#233; &quot; &amp; precoFinal &amp; &quot; sendo o pre&#231;o de fabrica &quot; &amp; precoFabrica" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O pre&#231;o inv&#225;lido. N&#227;o &#233; poss&#237;vel fazer o c&#225;culo.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
